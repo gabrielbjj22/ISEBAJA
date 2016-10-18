@@ -42,7 +42,7 @@ def json_serial(porta, bauld_rate):
     dados = ser.readline()#Cria uma variavel dados que recebe os dados da serial em formato string
     dados_json = json.loads(dados)#Cria uma variavel dados_json que transforma a string recebida em um objeto Json
 
-    return dados_json #Retorna um dicionario para ser usado
+    return dados_json #Retorna um dicionario com o objeto Json
 
 
 
